@@ -3,7 +3,7 @@
 # ==============================================================================
 
 compensationTab <- fluidPage(
-    shinyjs::extendShinyjs(text=restyleMetals),
+    shinyjs::extendShinyjs(text=restyleMetals, functions = "restyleMetal"),
     tags$style("#plotSpillmat{height:100vh !important}"),
     tags$style("#yieldPlotComp{height:70vh !important}"),
     tags$style("#summaryTblComp{height:100vh !important}"),

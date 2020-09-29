@@ -3,7 +3,7 @@
 # ==============================================================================
 
 normalizationTab <- fluidPage(
-    shinyjs::extendShinyjs(text=collapseBox),
+    shinyjs::extendShinyjs(text=collapseBox, functions = "collapse"),
     tags$style("#plot_smoothedBeads {height:100vh !important;}"),
     tags$style(HTML(".small-box{height:96px; margin-bottom:0px}")),
     tags$style("#dwnld_normResults {
